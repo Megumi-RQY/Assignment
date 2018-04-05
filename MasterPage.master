@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" Debug="true"%>
+<!DOCTYPE>
+
+<script runat="server">
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        TitleLabel.Text = Page.Title;
+    }
+
+    protected void Logout_Click(object sender, EventArgs e)
+    {
+        FormsAuthentication.SignOut();
+        Server.Transfer("~/login.aspx");
+    }
+</script>
+
+<html>
+    <head runat="server">
+        <title></title>
+        <link href="StyleSheet.css" rel="Stylesheet" type="text/css" />
+    </head>
+    <body>
+         <form runat="server">
+             <table cellpadding="0" cellspacing="0">   
+                 <tr>
+                     <td colspan="5" class="bordertr"></td>
+                 </tr>
+                 <tr>
+                     <td colspan="5" class="title1" valign="middle">
+                         <img src="sakura_icon.png" style="height: 39px; width: 39px" />
+                         Cherry Blossom
+                         <img src="sakura_icon.png" style="height: 39px; width: 39px" />
+                     </td>
+                 </tr>
+                 <tr>
+                     <td colspan="5" class="bordertr"></td>
+                 </tr>
+                 <tr>
+                     <td class="side">
+                         <div class="sidediv">
+                             <asp:SiteMapDataSource runat="server" ID="source1" />
+                             <asp:Menu runat="server" DataSourceID="source1" StaticDisplayLevels="2" BackColor="White">
+                                 <StaticMenuItemStyle CssClass="MenuStaItm" />
+                                 <DynamicHoverStyle CssClass="MenuDynHov" />
+                                 <DynamicMenuItemStyle CssClass="MenuDynItm" />
+                                 <StaticHoverStyle CssClass="MenuStaHov" />
+                             </asp:Menu>
+                         </div> 
+                         <div class="sidediv"><img src="megumi.jpg" width="144px" height="225px"/></div> 
+                         <div class="sidediv"><asp:Calendar runat="server" Height="16px" Width="200px" SkinID="CalendarView"></asp:Calendar></div>
+                     </td>
+                     <td colspan="4" class="mainframe">
+                         <div><asp:SiteMapPath runat="server">
+                             <PathSeparatorTemplate>--></PathSeparatorTemplate>
+                              </asp:SiteMapPath></div>
+                         <div class="logdiv"></div>
+                         <div class="title1">
+                             <img src="sakura_icon.png" style="height: 39px; width: 39px" />
+                             Cherry Blossom
+                             <img src="sakura_icon.png" style="height: 39px; width: 39px" />
+                         </div>
+                         <div class="title2">
+                             <asp:Label runat="server" ID="TitleLabel" />
+                         </div>
+                         <div class="seperate"><asp:LinkButton runat="server" Text="Log out" OnClick="Logout_Click" /></div>
+                         <div class="contentdiv">
+                             <asp:ContentPlaceHolder runat="server" ID="Holder1"></asp:ContentPlaceHolder>
+                         </div>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td colspan="5" class="footertxt">
+                         Copyright 2016 Blessing Software
+                     </td>
+                 </tr>
+             </table>   
+         </form>      
+    </body>
+</html>

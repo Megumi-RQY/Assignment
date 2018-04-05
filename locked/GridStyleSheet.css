@@ -1,0 +1,34 @@
+﻿body {
+}
+
+.divseperate{
+    margin-bottom: 10px;
+}
+
+.table{
+    font-size: 12px;
+}
+
+.editfield{
+    position:absolute;
+    top: 10px;
+    left: 450px;
+    margin-bottom: 10px;
+}
+
+.editfield1{
+    position:absolute;
+    top: 100px;
+    left: 450px;
+    margin-bottom: 10px;
+}
+
+.tbtitle{
+    width: 15%;
+    vertical-align:top;
+}
+
+.result{
+    width: 350px;
+    height: 100px;
+}

@@ -1,0 +1,14 @@
+﻿<Advertisements>
+  <Ad>
+    <ImageUrl>~/ad1.jpg</ImageUrl>
+    <NavigateUrl>~/locked/Documentation.aspx</NavigateUrl>
+    <AlternateText>Advertisement 1</AlternateText>
+    <Impressions>10</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/ad2.jpg</ImageUrl>
+    <NavigateUrl>~/locked/AboutUs.aspx</NavigateUrl>
+    <AlternateText>Advertisement 2</AlternateText>
+    <Impressions>10</Impressions>
+  </Ad>
+</Advertisements>

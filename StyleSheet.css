@@ -1,0 +1,174 @@
+﻿body {
+	background-color: #FFF8DC;
+    width: 1279px;
+}
+
+.div1{
+    width: 400px;
+}
+
+.logdiv{
+    margin-bottom: 15px;
+    text-align:right;
+}
+
+.title1{
+    height: 40px;
+    font-family: "Lucida Sans", Sans-Serif;
+	font-size: 30px;
+	font-style: italic;
+	background-color: #FFF8DC;
+	text-align: center;
+    vertical-align:central;
+    width: 1056px;
+}
+
+.title2{
+    height: 40px;
+    font-family: "Lucida Sans", Sans-Serif;
+	font-size: 20px;
+	font-style: italic;
+	background-color: #FFF8DC;
+	text-align: center;
+    vertical-align:central;
+    margin-top: 25px;
+    width: 1055px;
+}
+
+.side{
+    height: 600px;
+    background-color: lightpink;
+    text-align: center;
+}
+
+.mainframe{
+    height: 600px;
+    width: 700px;
+    vertical-align: top;
+}
+
+.footertxt{
+    font-size: 10px;
+	color: black;
+	background-color: lightpink;
+	height: 28px;
+    text-align: center;
+}
+
+.sidediv{
+    margin: 10px;
+}
+
+.bordertr{
+	background-color: lightpink;
+    height: 4px;
+}
+
+.seperate{
+    margin-bottom: 15px;
+}
+
+.MenuStaItm
+{
+  color: #000000;
+  background-color: #FFFFCC;
+  font-size: 14px;
+  padding-left: 2px;
+  padding-top: 2px;
+  padding-right: 20px;
+  border: 2px solid #729B78;
+}
+
+.MenuStaHov
+{
+  color: #ffffff;
+  background-color: #ADD8E6;
+  padding-left: 2px;
+  padding-top: 2px;
+  padding-right: 20px;
+  font-size: 14px;
+  border: 2px solid #348DA9;
+}
+
+.MenuDynItm
+{
+  color: #000000;
+  background-color: #F0E68C;
+  font-size: 14px;
+  padding: 2px;
+  border: 1px solid #C1B11A;
+}
+
+.MenuDynHov
+{
+  color: #FFFFFF;
+  background-color: #ADD8E6;
+  padding: 2px;
+  border: 2px solid #348DA9;
+  text-decoration: none;
+}
+
+.contenttxt{
+    text-align:center;
+}
+
+.doctxt{
+    margin-left: 15px;
+}
+
+.registdiv{
+    margin:10px;
+}
+
+.RPanel{
+    visibility:hidden;
+    border-width: 2px;
+    border-style: outset;
+    border-color: aqua;
+    width: 600px;
+}
+
+.RPanel1{
+    visibility: visible;
+    border-width: 2px;
+    border-style: outset;
+    border-color: aqua;
+    width: 600px;
+}
+
+.divseperate{
+    margin-bottom: 10px;
+}
+
+.table{
+    font-size: 12px;
+}
+
+.editfield{
+    position:absolute;
+    top: 192px;
+    left: 678px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.editfield1{
+    position:inherit;
+    top: 100px;
+    left: 450px;
+    margin-bottom: 10px;
+}
+
+.tbtitle{
+    width: 15%;
+    vertical-align:top;
+}
+
+.result{
+    width: 350px;
+    height: 100px;
+}
+
+.contentdiv{
+    width: 1055px;
+}
